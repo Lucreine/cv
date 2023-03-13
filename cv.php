@@ -31,7 +31,7 @@
             $this->langues = $langues;
         }        
         public function afficher():string {
-            $aff = " <h1> MON CV </h1>";
+            $aff = " <h1> MON CURRICULUM VITAE</h1>";
             $aff .= "Nom : " . $this->nom . "<br>";
             $aff.= "Prénom : " . $this->prenom . "<br>";
             $aff .= "Adresse : " . $this->adresse . "<br>";
